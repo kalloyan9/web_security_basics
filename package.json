@@ -2,10 +2,6 @@
   "name": "5mi0700025-path-traversal-nodejs",
   "version": "1.0.0",
   "description": "Курсов проект: Path Traversal атаки в Node.js уеб приложения - Калоян Механджийски",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
   "keywords": [
     "nodejs",
     "express",
@@ -13,8 +9,21 @@
     "path-traversal",
     "owasp"
   ],
-  "author": "Калоян Механджийски, 5MI0700025",
+  "homepage": "https://github.com/kalloyan9/web_security_basics#readme",
+  "bugs": {
+    "url": "https://github.com/kalloyan9/web_security_basics/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalloyan9/web_security_basics.git"
+  },
   "license": "MIT",
+  "author": "Калоян Механджийски, 5MI0700025",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "express": "^4.22.2"
   }
